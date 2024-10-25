@@ -6,7 +6,7 @@
 
 ## 📘 Descrição do Projeto
 
-Este projeto é de uma api para buscar as condicoes  meteorologicas de um determinada cidade passada por parametro pelo usuario.
+Este projeto é de uma api para buscar as condicoes  meteorologicas de um determinada cidade passada por parametro pelo usuario, utilizando um api externa https://openweathermap.org
 
 ## ⚙️ Requisitos Funcionais
 
@@ -22,6 +22,7 @@ Este projeto é de uma api para buscar as condicoes  meteorologicas de um determ
 ### Pré-requisitos
 
 - **Ruby 3.3.0** e **Rails 7.1.4** instalados.
+- **Crie uma api_key em https://openweathermap.org**
 
 ### Passo a Passo
 
