@@ -51,6 +51,57 @@ Este projeto é de uma api para buscar as condicoes  meteorologicas de um determ
 
 1. **Meteorologia por cidades:** Informe a cidade que queira saber a meteorologia.
 
+```json
+GET /api/weather?city=jau
+
+// response body, status: 200
+
+{
+	"coord": {
+		"lon": -48.5578,
+		"lat": -22.2964
+	},
+	"weather": [
+		{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04d"
+		}
+	],
+	"base": "stations",
+	"main": {
+		"temp": 23.3,
+		"feels_like": 23.98,
+		"temp_min": 23.3,
+		"temp_max": 23.3,
+		"pressure": 1011,
+		"humidity": 88,
+		"sea_level": 1011,
+		"grnd_level": 946
+	},
+	"visibility": 10000,
+	"wind": {
+		"speed": 5.22,
+		"deg": 351,
+		"gust": 10.18
+	},
+	"clouds": {
+		"all": 100
+	},
+	"dt": 1729860629,
+	"sys": {
+		"country": "BR",
+		"sunrise": 1729845236,
+		"sunset": 1729891339
+	},
+	"timezone": -10800,
+	"id": 3460005,
+	"name": "Jaú",
+	"cod": 200
+}
+```
+
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. Segue abaixo as orientações para contribuir com o projeto:
