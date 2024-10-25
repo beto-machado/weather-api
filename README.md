@@ -1,24 +1,69 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Weather Api 
 
-Things you may want to cover:
+[![Ruby](https://img.shields.io/badge/Ruby-3.3.0-red)](https://www.ruby-lang.org/en/)
+[![Rails](https://img.shields.io/badge/Rails-7.1.4-red)](https://rubyonrails.org/)
 
-* Ruby version
+## 📘 Descrição do Projeto
 
-* System dependencies
+Este projeto é de uma api para buscar as condicoes  meteorologicas de um determinada cidade passada por parametro pelo usuario.
 
-* Configuration
+## ⚙️ Requisitos Funcionais
 
-* Database creation
+- **Utilizar Api externa**: Fazer requisicao para uma api externa de meteorologia.
 
-* Database initialization
+## 🛠️ Tecnologias Utilizadas
 
-* How to run the test suite
+- **Ruby**: 3.3.0
+- **Rails**: 7.1.4
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🚀 Instalação
 
-* Deployment instructions
+### Pré-requisitos
 
-* ...
+- **Ruby 3.3.0** e **Rails 7.1.4** instalados.
+
+### Passo a Passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/beto-machado/weather-api.git
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   bundle install
+   ```
+
+3. **Configure o banco de dados:**
+   ```bash
+   rails db:create
+   rails db:migrate
+   ```
+5. **Inicie o servidor Rails:**
+   ```bash
+   rails server
+   ```
+
+6. **Acesse a aplicação em** `http://localhost:3000`.
+
+## 📝 Uso
+
+1. **Meteorologia por cidades:** Informe a cidade que queira saber a meteorologia.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. Segue abaixo as orientações para contribuir com o projeto:
+
+1. Fork o repositório.
+2. Crie uma branch para a nova feature (`git checkout -b feature/nova-feature`).
+3. Faça o commit das suas mudanças (`git commit -m 'Adiciona nova feature'`).
+4. Envie para o repositório remoto (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## 📧 Contato
+
+[LinkedIn](https://www.linkedin.com/in/betomachado3/)
+
+---
+
