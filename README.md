@@ -56,9 +56,10 @@ Este projeto é de uma api para buscar as condicoes  meteorologicas de um determ
 
 1. **Meteorologia por cidades:** Informe a cidade que queira saber a meteorologia.
 
+```bash
+   GET /api/weather?city=jau
+```
 ```json
-GET /api/weather?city=jau
-
 // response body, status: 200
 
 {
