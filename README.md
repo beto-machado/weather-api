@@ -35,7 +35,12 @@ Este projeto é de uma api para buscar as condicoes  meteorologicas de um determ
    bundle install
    ```
 
-3. **Configure o banco de dados:**
+3. **Crie um arquivo .env :** 
+   ```bash
+   WEATHER_API_KEY="adicione sua api_key"
+   ```
+
+4. **Configure o banco de dados:**
    ```bash
    rails db:create
    rails db:migrate
