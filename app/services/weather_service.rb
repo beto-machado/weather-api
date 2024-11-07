@@ -5,7 +5,7 @@ class WeatherService
 
   def initialize(city)
     @city = city
-    @api_key = ENV.fetch("WEATHER_API_KEY") { "weather_api_key" }
+    @api_key = ENV.fetch("OPENWEATHER_API_KEY") { "openweather_api_key" }
   end
 
   def fetch_weather
